@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://smartcaptcha.yandexcloud.net/captcha.js" defer></script>
+    <!--Стили-->
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <!--Дополнительные стили подключать после bootstrap-->
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/magnetic-wheel.css">
+    <link rel="shortcut icon" href="/images/logos/main-icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+    <title>Диагностика резервуаров</title>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="/images/logos/main-icon-white.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-bottom">
+                    Gekkon
+                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#preferences">Преимущества</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#team">Команда  проекта</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Блог</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Контакты</a>
+                    </li>
+                    </ul>
+              </div>
+              <div class="fasie_btn text-center" data-bs-toggle="modal" data-bs-target="#contractModal">
+                <img src="/images/logos/footer_logo_fasie.png" height="40px" alt="Логотип фонда содействия инновациям">
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+                <span class="navbar-toggler-icon"></span>
+            </button> 
+            </div>
+          </nav>
+    </header>
+
+    <section class="about bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center color1 mb-5">
+                        Диагностика резервуаров
+                    </h1>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorem voluptatum, ullam veritatis dignissimos voluptatibus sunt quisquam soluta quam ex harum molestias rem necessitatibus voluptates beatae dolor ad, laboriosam nesciunt quis facilis amet consequatur enim, quibusdam molestiae? Minima facere a, obcaecati veniam aspernatur cumque fuga quae alias repellendus eum ipsum cupiditate labore at beatae dolore consectetur doloremque voluptatibus error et. Consequuntur veritatis illum laudantium repellat porro. Consequatur minus odit fuga mollitia dolores aliquid dolore labore, dicta veniam accusantium quibusdam dolorum ipsam quasi cum ullam officiis saepe laudantium autem animi nesciunt nobis vitae architecto ratione deserunt! Consequuntur saepe ab culpa ea?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Услуги-->
+
+    <!--Преимущества-->
+    <section class="preferences bg-white" id="preferences">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center color1 mb-5">
+                        Преимущества
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-xl-1 col-md-3 col-sm-6">
+                        <img src="http://arc-innovative.ru/img/mainscreen.png" class="img-fluid" width="auto" alt="АРК ГЕККОН">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-6 col-md-12">
+                    <div class="itd-circle el-al"><i class="icon-gauge"></i></div>
+                    <h5 class="text-center">
+                        Скорсть
+                    </h5>
+                    <div class="line"></div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis fugiat tenetur esse exercitationem cumque? Repellat nisi totam vero error animi.
+                    </p>
+                </div>
+                <div class="col-xl-6 col-md-12">
+                    <div class="itd-circle"><i class="icon-move"></i></div>
+                    <h5 class="text-center">
+                        Перемещение
+                    </h5>
+                    <div class="line"></div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis fugiat tenetur esse exercitationem cumque? Repellat nisi totam vero error animi.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-6 col-md-12">
+                    <div class="itd-circle"><i class="icon-chart"></i></div>
+                    <h5 class="text-center">
+                        Автономность
+                    </h5>
+                    <div class="line"></div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis fugiat tenetur esse exercitationem cumque? Repellat nisi totam vero error animi.
+                    </p>
+                </div>
+                <div class="col-xl-6 col-md-12">
+                    <div class="itd-circle"><i class="icon-magnet"></i></div>
+                    <h5 class="text-center">
+                        Магнитные колёса
+                    </h5>
+                    <div class="line"></div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis fugiat tenetur esse exercitationem cumque? Repellat nisi totam vero error animi.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Для кого это техническое решение-->
+    <section class="forwhom bg-light">
+        <div class="container">
+            <h2 class="text-center color2 mb-5">
+                Для кого это техническое решение?
+            </h2>
+            <div class="row mb-5">
+                <div class="col-md-6">
+                    <h5 class="text-center">
+                        Lorem ipsum dolor sit amet consectetur.
+                    </h5>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="text-center">
+                        Lorem ipsum dolor sit amet consectetur.
+                    </h5>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="text-center">
+                        Lorem ipsum dolor sit amet consectetur.
+                    </h5>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="text-center">
+                        Lorem ipsum dolor sit amet consectetur.
+                    </h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <a href="" class="btn-lg text-uppercase btn-forwhom" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Узнать больше</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="donation">
+        <div class="container text-center">
+            <div class="row mb-5">
+                <div class="col">
+                    <h2 class="text-center color1">
+                        Помочь проекту
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <iframe src="https://yoomoney.ru/quickpay/fundraise/widget?billNumber=147LGE5NGMI.240726&" width="500" height="480" frameborder="0" allowtransparency="true" scrolling="on"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Команда проекта-->
+    <section class="team bg-light" id="team">
+        <div class="container">
+            <div class="row">
+                <h2 class="color2 mb-5 text-center">
+                    Команда проекта
+                </h2>
+                <div class="col-xl-3 col-md-6">
+                    <div class="card teammate" style="width: 18rem;">
+                        <img src="https://sun6-20.userapi.com/s/v1/ig2/kdmChLwZyXjVZgNwvHqo-uoNltTmYEuyai3TaSXXxNZNPi3hPQohyJlnlbXgV7rPaCv3Is8SBCY18-c30XQbbqeH.jpg?quality=95&crop=1051,1059,479,479&as=32x32,48x48,72x72,108x108,160x160,240x240,360x360&ava=1&u=Sj5_jCXiMw09uQJ9vROWwoag0npd8sbaLZA6MlviDeY&cs=200x200" class="card-img-top" alt="Фото Максима Шестакова">
+                        <div class="card-body">
+                            <h5 class="mb-0">Шестаков Максим</h5>
+                            <ul>
+                                <li>
+                                    <i>Директор</i>
+                                </li>
+                                <li>
+                                    <a href="mailto:belobov.filipp@zeefy.ru"><i class="bi bi-envelope-at-fill"></i>&nbsp;belobov.filipp@zeefy.ru</a>
+                                </li>
+                                <li>
+                                    <a href="https://t.me/zeefeerkee"><i class="bi bi-telegram"></i>&nbsp;@zeefeerkee</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                    <div class="card teammate" style="width: 18rem;">
+                        <img src="https://sun9-5.userapi.com/impg/Dsm5Ni1LM7VtEt3mIGga3X6xIaIQCXVp1IOZOQ/qgk_PyMUJu8.jpg?size=1000x1000&quality=96&sign=8b36eaee52b31d0cb9708915da76c9f6&type=album" class="card-img-top" alt="Фото Белобородова Филиппа>">
+                        <div class="card-body">
+                            <h5 class="mb-0">Белобородов Филипп</h5>
+                            <ul>
+                                <li>
+                                    <i>Инженер-программист</i>
+                                </li>
+                                <li>
+                                    <a href="mailto:belobov.filipp@zeefy.ru"><i class="bi bi-envelope-at-fill"></i>&nbsp;belobov.filipp@zeefy.ru</a>
+                                </li>
+                                <li>
+                                    <a href="https://t.me/zeefeerkee"><i class="bi bi-telegram"></i>&nbsp;@zeefeerkee</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                    <div class="card teammate" style="width: 18rem;">
+                        <img src="https://sun6-21.userapi.com/s/v1/if1/uxKgVz3CDJxbo8bLIvK8_fBTRyKN2vG5v9LRFBza9XaLKohCtQTgMBxdc_Oc1FuTT0p_zqoq.jpg?size=100x100&quality=96&crop=529,5,550,550&ava=1" class="card-img-top" alt="Фото Гилязетдинова Даниила">
+                        <div class="card-body">
+                            <h5 class="mb-0">Гилязетдинов Даниил</h5>
+                            <ul>
+                                <li>
+                                    <i>Инженер-конструктор</i>
+                                </li>
+                                <li>
+                                    <a href="mailto:belobov.filipp@zeefy.ru"><i class="bi bi-envelope-at-fill"></i>&nbsp;belobov.filipp@zeefy.ru</a>
+                                </li>
+                                <li>
+                                    <a href="https://t.me/zeefeerkee"><i class="bi bi-telegram"></i>&nbsp;@zeefeerkee</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                    <div class="card teammate" style="width: 18rem;">
+                        <img src="https://pp.userapi.com/dfvmQ4fDCgEfMVVLlOKBUsaUdh7QZww8ME4IHg/2G-nzM7_pH4.png" class="card-img-top" alt="Фото Гумарова Эльдара">
+                        <div class="card-body">
+                            <h5 class="mb-0">Эльдаров Гумар</h5>
+                            <ul>
+                                <li>
+                                    <i>Инженер-технолог</i>
+                                </li>
+                                <li>
+                                    <a href="mailto:belobov.filipp@zeefy.ru"><i class="bi bi-envelope-at-fill"></i>&nbsp;belobov.filipp@zeefy.ru</a>
+                                </li>
+                                <li>
+                                    <a href="https://t.me/zeefeerkee"><i class="bi bi-telegram"></i>&nbsp;@zeefeerkee</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Новости-->
+    <section>
+        
+    </section>
+
+
+    <footer id="footer">
+        <div class="container">
+
+            <!--Контакты-->
+            <div class="row mb-5 contacts">
+                <div class="col-xl-6 col-md-12 text-cente">
+                    <h2 class="text-center color2 mb-4 text-uppercase">
+                        к о н т а к т ы
+                    </h2>
+                    <ul>
+                        <li>
+                            <a href="tel:+796117577490">+7 961 175 774 90</a>
+                            <a href="mailto:info@gekkon.ru">info@gekkon.ru</a>
+                        </li>
+                        <li>
+                            <div class="adress">
+                                <p><strong>Россия</strong></p>
+                                <p>Пермский край, город Пермь, улица Дзержинского 50, офис 302</p>
+                            </div>
+                        </li>
+                      </ul>
+                </div>
+                <div class="col-xl-6 col-md-12 text-center">
+                    <!--Карта-->
+                    <div class="map">
+                        <iframe class="rounded" alt="Карта" src="https://yandex.ru/map-widget/v1/?um=constructor%3A306b10e4aa385d1eaba272ca023750e9b2fa1b9e7b06ec3872c1540137ffa118&amp;source=constructor" width="380" height="320" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <!--Партнёры-->
+            <div class="row partners mb-5">
+                <div class="col text-center">
+                    <a href="">
+                        <img src="/images/logos/main-icon-white.svg" height="100px" alt="Фонд содействия инновациям">
+                    </a>
+                </div>
+                <div class="col text-center logo-fasie">
+                    <a href="">
+                        <img src="/images/logos/FASIElogo-white.svg" height="100px" alt="Фонд содействия инновациям">
+                    </a>
+                </div>
+                <div class="col text-center">
+                    <a href="">
+                        <img src="/images/logos/ARClogo.svg" height="100px" alt="Фонд содействия инновациям">
+                    </a>
+                </div>
+            </div>
+
+            <!--Защита прав-->
+            <div class="row color2">
+                <p class="text-center">&copy;Все права защищены МИП&nbsp;ООО&nbsp;&laquo;ГЕККОН&raquo; <br>
+г.Пермь, ул. Дзержинского&nbsp;50, 3&nbsp;этаж, офис 304</p>
+            </div>
+        </div>
+    </footer>
+
+    <!--Моадльные окна-->
+    <!--Модальное окно договора с фондом содействия инновациям-->
+    <div class="modal fade" id="contractModal" tabindex="-1" aria-labelledby="contractModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="contractModalLabel">Создано при поддержке фонда содействия инновациям</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+            <div class="modal-body">
+                <a href="https://fasie.ru/">
+                    <img src="/images/logos/FASIElogo.svg" alt="Логотип фонда содействия инновациям" class="img-fluid">
+                </a>
+                <p>
+                    Проект реализован при поддержке Фонда содействиях инноваций (договор #####/#######1)
+                </p>    
+            </div>
+        </div>
+        </div>
+    </div>
+
+  
+  <!-- Модальное окно -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Заказать звонок</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+        </div>
+        <div class="modal-body">
+            <div class="input-group mb-3">
+                <span class="input-group-text">Фамилия и имя</span>
+                <input type="text" id="formLastName" aria-label="Фамилия" class="form-control" placeholder="Белобородов">
+                <input type="text" id="formFirstName" aria-label="Имя" class="form-control" placeholder="Филипп">
+            </div>
+            <div class="mb-3">
+                <label for="formEmail" class="form-label">Адрес электронной почты</label>
+                <input type="email" class="form-control" id="formEmail" placeholder="name@example.com">
+            </div>
+
+            <div class="mb-3">
+                <label for="formTelephone" class="form-label">Номер телефона</label>
+                <input type="tel" class="form-control" id="formTelephone" placeholder="8-900-000-00-00">
+            </div>
+            <div class="mb-3">
+                <label for="formComment" class="form-label">Комментарий по желанию</label>
+                <textarea class="form-control" id="formComment" rows="3" placeholder="Начните вводить текст..."></textarea>
+            </div>
+            <div class="form-check mb-5">
+                <input class="form-check-input" type="checkbox" value="" id="checkAgree">
+                <label class="form-check-label" for="checkAgree">
+                    Отправляя данную форму я даю согласие на обработку персональных данный в соответсвии с <a href="">Политикой обработки персональных данных</a> 
+                </label>
+            </div>
+            <div 
+                style="height: 100px"
+                id="captcha-container"
+                class="smart-captcha"
+                data-sitekey="ysc1_DOPExholgrJ506I6n0zg6iY1tlLQHDgPCpYc9qNm4c058cfb">
+            </div>
+            
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+          <button type="button" class="btn btn-primary">Получить ответ</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+
+    <!--Скрипты-->
+    <script src="scripts/bootstrap.bundle.min.js"></script>
+</body>
+</html>

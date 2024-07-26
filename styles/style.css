@@ -1,0 +1,147 @@
+:root {
+    --color_header: var(--bs-gray-900);
+    --color_paragraph: var(--bs-gray-600);
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+footer, section {
+    padding: 100px 0;
+}
+
+footer {
+    background-color: var(--bs-dark);
+    padding-bottom: 10px;
+}
+
+.fasie_btn {
+    cursor: pointer;
+    transition: .3s;
+}
+
+.fasie_btn:hover {
+    transform: scale(.95);
+}
+
+/* Преимущества */
+.preferences i {
+    font-size: 25px;
+    color: var(--paragraph_color);
+}
+
+.preferences i:first-child {
+    position: relative;
+    bottom: 3px;
+}
+
+.itd-circle {
+    margin: 0 auto 15px;
+    width: 70px;
+    height: 70px;
+    border: 3px solid var(--color_paragraph);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    width: 100px;
+    height: 3px;
+    background-color: var(--bs-gray-700);
+    display: flex;
+    margin: 15px auto 30px;
+}
+
+
+
+/* Для кого техническое решение */
+
+.forwhom h5 {
+    padding: 50px;
+    border: 3px solid var(--color_header);
+
+}
+
+
+.btn-forwhom {
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 8px 30px;
+    color: var(--bs-white);
+    background-color: var(--color_header); 
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+
+.btn-forwhom:hover {
+    color: var(--bs-white);
+    opacity: 0.9;
+}
+
+/* Команда проекта */
+.teammate {
+    margin: 20px auto;
+}
+.teammate a {
+    text-decoration: none;
+}
+
+.teammate ul {
+    list-style: none;
+    padding: 0;
+}
+
+.teammate li:first-child{
+    margin-bottom: 10px;
+}
+
+/* Контакты */
+footer li {
+    color: var(--bs-white);
+    list-style: none;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+footer li a{
+    text-decoration: none;
+    display: block;
+    color: var(--bs-white);
+    transition: 0.2s;
+}
+
+footer li a:hover{
+    color: var(--bs-gray-600);
+}
+
+/* Цвет */
+
+.color1 {
+    color: var(--color_header);
+}
+
+.color2 {
+    color: var(--color_paragraph);
+}
+
+
+.bg1 {
+    background-color: var(--color_header);
+}
+
+.bg2 {
+    background-color: var(--color_paragraph);
+}
+
+
+.logo-fasie {
+    position: relative;
+    top: 20px;
+}
